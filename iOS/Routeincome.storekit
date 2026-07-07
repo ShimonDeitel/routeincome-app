@@ -1,0 +1,40 @@
+{
+  "identifier" : "RouteincomeConfig",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "vendingroute_group",
+      "localizations" : [],
+      "name" : "Routeincome Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "$2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "vendingroute_pro_monthly_internal",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlock Per-machine profit reports and route-wide totals",
+              "displayName" : "Routeincome Pro Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "vendingroute_pro_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Routeincome Pro Monthly",
+          "subscriptionGroupID" : "vendingroute_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
